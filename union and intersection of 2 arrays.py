@@ -28,8 +28,8 @@ def printIntersection(arr1, arr2, m, n):
             print(arr2[j], end=" ")
             j += 1
             i += 1
-arr1 = [1, 2, 4, 5, 6]
-arr2 = [2, 3, 5, 7]
+arr1 = list(map(int, input('Enter space separated list elements:').split()))
+arr2 = list(map(int, input('Enter space separated list elements:').split()))
 m = len(arr1)
 n = len(arr2)
 printUnion(arr1, arr2, m, n)
