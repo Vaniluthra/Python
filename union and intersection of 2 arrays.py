@@ -1,3 +1,7 @@
+'''
+Description
+Program to find union and intersection of 2 arrays
+'''
 def printUnion(arr1, arr2, m, n):
     i, j = 0, 0
     while i < m and j < n:
