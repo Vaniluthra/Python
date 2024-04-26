@@ -1,3 +1,7 @@
+'''
+Description
+Program to find kth maximum and kth minimum of a list
+'''
 def quicksort(arr):
     if len(arr) <= 1:
         return arr
