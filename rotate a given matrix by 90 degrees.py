@@ -1,3 +1,7 @@
+'''
+Description
+Program to rotate a given matrix by 90 degrees
+'''
 def rotate_matrix(matrix):
     n = len(matrix)
     for i in range(n):
