@@ -1,4 +1,8 @@
-a = list(map(int, input('enter space separated list elements:').split()))
+'''
+Description
+Program to sort an array containing 0,1 or 2
+'''
+a = list(map(int, input('Enter space separated list elements:').split()))
 n = len(a)
 c0 = c1 = 0
 for i in a:
