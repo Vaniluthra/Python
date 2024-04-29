@@ -1,3 +1,7 @@
+'''
+Program to replace a charecter of a string with given string
+'''
+
 def s(st,ch1,ch2):
     st2=st
     st2=list(st2)
