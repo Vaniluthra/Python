@@ -1,3 +1,8 @@
+'''
+Program to encrypt a given string, each charecter should be replaced with the charecter that comes next to it in the alphabet, 
+also each number should be replaced with the number that comes next to it.
+'''
+
 def f(a,k):
     st=[]
     if (0>k>25):
