@@ -1,3 +1,7 @@
+'''
+Determine if a given integer n is an Armstrong number of order 3, meaning if it is equal to the sum of the cubes of its digits.
+'''
+
 n = int(input("Enter a number: "))
 s = 0
 t = n
