@@ -1,5 +1,5 @@
 '''
-
+Replace each element in a list of integers with the next greater element to its right, or -1 if no such element exists.
 '''
 a=list(map(int,input('enter space separated values:').split()))
 n=len(a)
